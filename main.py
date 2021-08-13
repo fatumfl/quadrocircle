@@ -111,5 +111,5 @@ if __name__ == "__main__":
 	# dwg = colored_circles(fract, myconf.size, myconf.style, colors)  # Возвращает холст с svg-объектами окружностей разукрашенных случайным образом
 
 	# Запись данных в файл
-	with open("temp/recCircle_out.svg", 'w', encoding="utf-8") as file:
+	with open("generated/recCircle_out.svg", 'w', encoding="utf-8") as file:
 		dwg.write(file)
